@@ -21,6 +21,8 @@ jobs:
 
     test_job_2:
         
+        needs: build_job_1
+
         runs-on: ubuntu-latest
 
         steps:
@@ -33,7 +35,10 @@ jobs:
 
 
     deploy_job_3:
-        
+
+        needs:
+          - test_job_2
+
         runs-on: ubuntu-latest
 
         steps:
