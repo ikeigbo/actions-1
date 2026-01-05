@@ -1,1 +1,4 @@
-# actions-1
+# Exploring Actions
+- a robost automation tool that empowers you to streamline repetitive tasks
+- automate your software development workflows
+- enhancing productivity and code quality
